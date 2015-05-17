@@ -1,0 +1,19 @@
+<div class="jumbotron text-center">
+    <h1>Home Page</h1>
+
+    <p>{{ message }}</p>
+
+    <div>
+
+        {{'HEADLINE'|translate}}
+    </div>
+    <div>
+
+        {{'INTRODUCTION'|translate}}
+    </div>
+
+    <div ng-controller="TranslateController">
+        <button ng-click="changeLanguage('de')" translate="BUTTON_TEXT_DE"></button>
+        <button ng-click="changeLanguage('en')" translate="BUTTON_TEXT_EN"></button>
+    </div>
+</div>
