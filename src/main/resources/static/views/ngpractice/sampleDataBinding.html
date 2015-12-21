@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <title>Sample Data Binding</title>
+        <script type="text/javascript" src="../../bower_components/angular/angular.min.js"></script>
+        <script type="text/javascript" src="../../app/ngpractice/sampleDataBinding.js"></script>
+    </head>
+
+    <body ng-app="sampleBindingApp">
+    <div ng-controller="MyController">
+        <input type="text" ng-model="name" placeholder="Your name please??">
+        {{name}}
+        {{clock.now}}
+    </div>
+    </body>
+</html>
