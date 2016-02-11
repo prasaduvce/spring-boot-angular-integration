@@ -37,6 +37,12 @@
             <scope>runtime</scope>
         </dependency>
 
+        <dependency>
+            <groupId>org.fitnesse</groupId>
+            <artifactId>fitnesse</artifactId>
+            <version>20151230</version>
+        </dependency>
+
     </dependencies>
 
     <dependencyManagement>
