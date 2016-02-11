@@ -2,6 +2,7 @@ package jukebox.fixtures;
 
 import jukebox.sut.JukeBox;
 
+//TODO: Refer link: https://dzone.com/refcardz/getting-started-fitnesse for fitnesse understanding
 public class CreditsForPayment {
     private double payment;
 
